@@ -1,6 +1,7 @@
 /* 전체페이지공통 */
 #wrap {
     width: 100%;
+   overflow: hidden;
 }
 #header,
 #subheader #visual,

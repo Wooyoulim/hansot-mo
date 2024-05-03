@@ -1,145 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Document</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/content/sub_common.css" />
-        <link rel="stylesheet" href="css/content/sub_style.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
-    </head>
-    <body>
-        <div id="wrap">
-            <header id="subheader"></header>
-            <section id="sub_visual">
-                <img src="images/content/voc/voc-bg.png" alt="한솥이야기" />
-                <div class="subject">
-                    <strong>고객의 소리</strong>
-                    <p class="eng_name">Q&A</p>
-                </div>
-            </section>
-            <main id="container" class="qna voc">
-                <section id="content">
-                    <div class="select">
-                        <ul class="choice">
-                            <li class="fqabtn">
-                                <a href="frequentlyasked.html">자주묻는질문</a>
-                            </li>
-                            <li class="vocbtn on"><a href="voc.html">고객의 소리</a></li>
-                        </ul>
-                    </div>
-                    <!-- 문의구분 -->
-                    <strong>문의구분</strong>
-                    <div class="voc_first">
-                        <input type="radio" name="division" id="division1" /><label
-                            for="division1"
-                            checked
-                            >칭찬</label
-                        >
-                        <input type="radio" name="division" id="division2" /><label for="division2"
-                            >만족</label
-                        >
-                        <input type="radio" name="division" id="division3" /><label for="division3"
-                            >불만족</label
-                        >
-                        <input type="radio" name="division" id="division4" /><label for="division4"
-                            >제안</label
-                        >
-                        <input type="radio" name="division" id="division5" /><label for="division5"
-                            >질문</label
-                        >
-                    </div>
-                    <!-- //문의구분 -->
-                    <!-- 점포명 -->
-                    <strong>점포명</strong>
-                    <div class="voc_second">
-                        <select name="city" id="city" class="w155" required>
-                            <option>시/도 선택</option>
-                            <option>경기도</option>
-                            <option>경상남도</option>
-                            <option>경상북도</option>
-                            <option>광주광역시</option>
-                            <option>대구광역시</option>
-                            <option>대전광역시</option>
-                            <option>부산광역시</option>
-                            <option>서울특별시</option>
-                            <option>서울특별시</option>
-                            <option>세종특별자치시</option>
-                            <option>울산광역시</option>
-                            <option>인천광역시</option>
-                            <option>인천광역시</option>
-                            <option>전라남도</option>
-                            <option>전라북도</option>
-                            <option>제주특별자치도</option>
-                            <option>충청남도</option>
-                            <option>충청북도</option>
-                        </select>
-                        <select name="borough" id="borough" class="w155">
-                            <option>군/구 선택</option>
-                        </select>
-                        <br />
-                        <input
-                            type="text"
-                            id="store_name"
-                            placeholder="점포명을 입력해주세요"
-                            class="w320"
-                            required
-                        />
-                    </div>
-                    <!-- //점포명 -->
-                    <!-- 문의내용 -->
-                    <strong>문의내용</strong>
-                    <div class="voc_third">
-                        <input
-                            type="text"
-                            id="inquiry_title"
-                            placeholder="제목을 입력해주세요."
-                            class="w320"
-                            required
-                        />
-                        <br />
-                        <input
-                            type="text"
-                            id="inquiry_content"
-                            placeholder="내용을 입력해주세요."
-                            class="w320"
-                            required
-                        />
-                    </div>
-                    <!-- //문의내용 -->
-                    <strong>파일첨부</strong>
-                    <div class="voc_fourth">
-                        <div class="voc_file_wrap">
-                            <em class="voc_file_em"></em>
-                            <label for="inquiry_file" class="voc_file_label"></label
-                            ><input type="file" id="inquiry_file" class="voc_file_input" />
-                        </div>
-                        <span>*업로드 최대용량은 50MB 입니다.</span>
-                    </div>
-                    <strong>개인정보 수집 동의</strong>
-                    <div class="voc_fifth">
-                        <p>
-                            - 개인정보 수집·이용 목적 : 회원 가입의사 확인, 회원제 서비스 제공에
-                            따른 본인 식별·인증, 회원자격 유지·관리, 만14세 미만 아동 개인정보 수집
-                            시 법정대리인 동의 여부 확인, 각종 고지·통지, 고충처리 등을 목적으로
-                            개인정보를 처리합니다.<br />
-                            <br />
-                            - 개인정보 항목 : 성명, 생년월일, 연락처, 주소, 이메일, 서비스 이용
-                            기록, 접속 로그, 쿠키, 접속 IP 정보<br /><br />
-                            - 보유기간 : 회원 탈퇴 시 까지 보유<br /><br />
-                            - 보유근거 : 고객문의, 요청관리, 사용자 식별, 서비스 개선
-                        </p>
-                        <input type="checkbox" id="chk1" name="chk1" required />
-                        <label for="chk1"></label>
-                        <span>개인정보 수집 이용에 동의 합니다.</span>
-                    </div>
-                    <p class="faq_button"><a href="#">문의신청</a></p>
-                </section>
-            </main>
-            <footer id="footer"></footer>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/content/sub_common.css" />
+    <link rel="stylesheet" href="css/content/sub_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="subheader"></header>
+      <section id="sub_visual">
+        <img src="images/content/voc/voc-bg.png" alt="한솥이야기" />
+        <div class="subject">
+          <strong>고객의 소리</strong>
+          <p class="eng_name">Q&A</p>
         </div>
-        <script src="js/common/common.js"></script>
-        <script type="module" src="js/content/sub.js"></script>
-    </body>
+      </section>
+      <main id="container" class="qna voc">
+        <section id="content">
+          <div class="select">
+            <ul class="choice">
+              <li class="fqabtn">
+                <a href="frequentlyasked.html">자주묻는질문</a>
+              </li>
+              <li class="vocbtn on"><a href="voc.html">고객의 소리</a></li>
+            </ul>
+          </div>
+          <!-- 문의구분 -->
+          <strong>문의구분</strong>
+          <div class="voc_first">
+            <input type="radio" name="division" id="division1" /><label
+              for="division1"
+              checked
+              >칭찬</label
+            >
+            <input type="radio" name="division" id="division2" /><label
+              for="division2"
+              >만족</label
+            >
+            <input type="radio" name="division" id="division3" /><label
+              for="division3"
+              >불만족</label
+            >
+            <input type="radio" name="division" id="division4" /><label
+              for="division4"
+              >제안</label
+            >
+            <input type="radio" name="division" id="division5" /><label
+              for="division5"
+              >질문</label
+            >
+          </div>
+          <!-- //문의구분 -->
+          <!-- 점포명 -->
+          <strong>점포명</strong>
+          <div class="voc_second">
+            <select name="city" id="city" class="w155" required>
+              <option>시/도 선택</option>
+              <option>경기도</option>
+              <option>경상남도</option>
+              <option>경상북도</option>
+              <option>광주광역시</option>
+              <option>대구광역시</option>
+              <option>대전광역시</option>
+              <option>부산광역시</option>
+              <option>서울특별시</option>
+              <option>서울특별시</option>
+              <option>세종특별자치시</option>
+              <option>울산광역시</option>
+              <option>인천광역시</option>
+              <option>인천광역시</option>
+              <option>전라남도</option>
+              <option>전라북도</option>
+              <option>제주특별자치도</option>
+              <option>충청남도</option>
+              <option>충청북도</option>
+            </select>
+            <select name="borough" id="borough" class="w155">
+              <option>군/구 선택</option>
+            </select>
+            <br />
+            <input
+              type="text"
+              id="store_name"
+              placeholder="점포명을 입력해주세요"
+              class="w320"
+              required
+            />
+          </div>
+          <!-- //점포명 -->
+          <!-- 문의내용 -->
+          <strong>문의내용</strong>
+          <div class="voc_third">
+            <input
+              type="text"
+              id="inquiry_title"
+              placeholder="제목을 입력해주세요."
+              class="w320"
+              required
+            />
+            <br />
+            <input
+              type="text"
+              id="inquiry_content"
+              placeholder="내용을 입력해주세요."
+              class="w320"
+              required
+            />
+          </div>
+          <!-- //문의내용 -->
+          <strong>파일첨부</strong>
+          <div class="voc_fourth">
+            <div class="voc_file_wrap">
+              <b></b>
+              <label for="inquiry_file" class="voc_file_label"></label
+              ><input type="file" id="inquiry_file" class="voc_file_input" />
+            </div>
+            <span>*업로드 최대용량은 50MB 입니다.</span>
+          </div>
+          <strong>개인정보 수집 동의</strong>
+          <div class="voc_fifth">
+            <p>
+              - 개인정보 수집·이용 목적 : 회원 가입의사 확인, 회원제 서비스
+              제공에 따른 본인 식별·인증, 회원자격 유지·관리, 만14세 미만 아동
+              개인정보 수집 시 법정대리인 동의 여부 확인, 각종 고지·통지,
+              고충처리 등을 목적으로 개인정보를 처리합니다.<br />
+              <br />
+              - 개인정보 항목 : 성명, 생년월일, 연락처, 주소, 이메일, 서비스
+              이용 기록, 접속 로그, 쿠키, 접속 IP 정보<br /><br />
+              - 보유기간 : 회원 탈퇴 시 까지 보유<br /><br />
+              - 보유근거 : 고객문의, 요청관리, 사용자 식별, 서비스 개선
+            </p>
+            <input type="checkbox" id="chk1" name="chk1" required />
+            <label for="chk1"></label>
+            <span>개인정보 수집 이용에 동의 합니다.</span>
+          </div>
+          <p class="faq_button"><a href="#">문의신청</a></p>
+        </section>
+      </main>
+      <footer id="footer"></footer>
+    </div>
+    <script src="js/common/common.js"></script>
+    <script type="module" src="js/content/sub.js"></script>
+  </body>
 </html>

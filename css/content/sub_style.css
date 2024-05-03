@@ -941,7 +941,9 @@ select {
   width: 8.3333vw;
   height: 8.3333vw;
   margin-right: 3.8889vw;
-
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-image: url("../../images/content/voc/checkbox.png");
   vertical-align: middle;
 }
@@ -950,6 +952,9 @@ select {
 
 .voc .voc_fifth input:checked + label::before {
   background-image: url("../../images/content/voc/checkbox_checked.png");
+    background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .voc .voc_fifth > span {

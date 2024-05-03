@@ -1,7 +1,7 @@
 /* 전체페이지공통 */
 #wrap {
     width: 100%;
-   overflow: hidden;
+    overflow: hidden;
 }
 #header,
 #subheader #visual,
@@ -22,8 +22,8 @@
 /* 서브페이지 헤더 */
 
 #subheader {
-    width: 360px;
-    height: 60px;
+    width: 100vw;
+    height: 16.6667vw;
     position: relative;
     background: transparent;
 }
@@ -37,27 +37,27 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    line-height: 60px;
+    line-height: 16.6667vw;
 }
 #subheader .inner h1 img {
     position: absolute;
-    top: 15px;
+    top: 4.1667vw;
     /* transform: translateY(-50%); */
-    left: 20px;
+    left: 5.5556vw;
     z-index: 100;
 }
 #subheader .all_menu {
-    width: 360px;
+    width: 100vw;
     overflow: hidden;
-    height: 60px;
+    height: 16.6667vw;
 }
 
 #subheader .all_menu .icon {
-    width: 25px;
-    height: 25px;
+    width: 6.9444vw;
+    height: 6.9444vw;
     position: absolute;
-    right: 20px;
-    top: 15px;
+    right: 5.5556vw;
+    top: 4.1667vw;
     /* top: 50%;
     transform: translateY(-50%); */
     /* transform: translate(320px, 5px); */
@@ -67,23 +67,23 @@
 #subheader .all_menu .menu {
     display: block;
     background: #fff;
-    width: 25px;
-    height: 5px;
+    width: 6.9444vw;
+    height: 1.3889vw;
     transition: 0.55s;
-    margin-bottom: 5px;
+    margin-bottom: 1.3889vw;
     position: absolute;
 }
 #subheader .all_menu .icon .top {
     top: 0;
 }
 #subheader .all_menu .icon .middle {
-    top: 10px;
+    top: 2.7778vw;
 }
 #subheader .all_menu .icon .bottom {
-    top: 20px;
+    top: 5.5556vw;
 }
 #subheader .all_menu .icon .top.on {
-    top: 5px;
+    top: 1.3889vw;
     transform: rotate(50deg);
     transition: 0.55s 0.5s;
 }
@@ -102,15 +102,16 @@
     z-index: 999;
     top: 0px;
     background: rgba(255, 255, 255, 0.5);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2.7778vw 4.1667vw -0.8333vw,
+        rgba(0, 0, 0, 0.05) 0px 1.1111vw 1.6667vw -0.5556vw;
 }
 #subheader.sticky .all_menu .menu {
     display: block;
     background: #303030;
-    width: 25px;
-    height: 5px;
+    width: 6.9444vw;
+    height: 1.3889vw;
     transition: 0.55s;
-    margin-bottom: 5px;
+    margin-bottom: 1.3889vw;
     position: absolute;
 }
 
@@ -118,37 +119,37 @@
 
 #subheader .all_menu .sub_menu {
     width: 100%;
-    height: 630px;
+    height: 175vw;
     background: #f1bb00;
-    padding-top: 60px;
+    padding-top: 16.6667vws;
     /* display: none; */
     position: absolute;
     top: 0;
-    left: 360px;
+    left: 100vw;
     transition: 1s;
     /* z-index: 100; */
 }
 #subheader .all_menu .sub_menu li:nth-child(2) {
-    margin-top: 30px;
+    margin-top: 8.3333vw;
 }
 #subheader .all_menu .sub_menu li {
     width: 100%;
     text-align: left;
-    text-indent: 20px;
+    text-indent: 5.5556vw;
 }
 #subheader .all_menu .sub_menu li.login a {
     display: inline;
-    font-size: 16px;
+    font-size: 4.4444vw;
     font-weight: lighter;
-    margin-right: 10px;
+    margin-right: 2.7778vw;
 }
 #subheader .all_menu .sub_menu li.login a::after {
     content: '';
-    height: 13px;
-    width: 1px;
+    height: 3.6111vw;
+    width: 0.2778vw;
     background: #303030;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 2.7778vw;
 }
 #subheader .all_menu .sub_menu li.login a:last-child {
     margin-right: 0;
@@ -157,11 +158,11 @@
     display: none;
 }
 #subheader .all_menu .sub_menu li a {
-    width: 360px;
+    width: 100vw;
     display: block;
-    font-size: 30px;
+    font-size: 8.3333vw;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 2.7778vw;
     /* padding-left: 20px; */
 }
 /* //.헤더 */
@@ -185,21 +186,21 @@
 #footer .footer_sns {
     display: flex;
     justify-content: center;
-    width: 320px;
-    border-bottom: 3px solid #303030;
-    margin-top: 20px;
+    width: 88.8889vw;
+    border-bottom: 0.8333vw solid #303030;
+    margin-top: 5.5556vw;
 }
 #footer .footer_sns li {
-    margin-bottom: 20px;
+    margin-bottom: 5.5556vw;
 }
 #footer .footer_sns li a {
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
     display: block;
-    width: 42px;
-    height: 42px;
-    margin-right: 10px;
+    width: 11.6667vw;
+    height: 11.6667vw;
+    margin-right: 2.7778vw;
 }
 #footer .footer_sns li:nth-child(1) a {
     background-image: url(../../images/common/kakao.png);
@@ -216,30 +217,30 @@
 }
 
 #footer .info p {
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 3.8889vw;
+    line-height: 6.6667vw;
 }
 #footer .info p span::after {
     content: '';
-    height: 10px;
-    width: 1px;
+    height: 2.7778vw;
+    width: 0.2778vw;
     background: #303030;
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 1.3889vw;
 }
 #footer .info p span:last-child::after {
     display: none;
 }
 #footer .info p span.founded_number {
-    margin-left: -5px;
+    margin-left: -1.3889vw;
 }
 /* //.푸터 */
 
 /* 서브비주얼 */
 
 #sub_visual {
-    width: 360px;
-    height: 590px;
+    width: 100vw;
+    height: 163.8889vw;
 }
 #sub_visual img {
     position: absolute;
@@ -248,20 +249,20 @@
 }
 #sub_visual .subject {
     position: absolute;
-    top: 500px;
+    top: 138.8889vw;
     color: #fff;
     z-index: -1;
 }
 #sub_visual .subject strong {
     display: block;
-    text-indent: 20px;
-    font-size: 30px;
+    text-indent: 5.5556vw;
+    font-size: 8.3333vw;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 1.3889vw;
 }
 #sub_visual .subject .eng_name {
-    font-size: 20px;
-    text-indent: 20px;
+    font-size: 5.5556vw;
+    text-indent: 5.5556vw;
     font-weight: lighter;
 }
 

@@ -90,7 +90,7 @@
     opacity: 0;
 }
 #subheader .all_menu .icon .bottom.on {
-    top: 5px;
+    top: 1.3889vw;
     transform: rotate(-410deg);
     transition: 0.55s 0.5s;
 }
@@ -175,7 +175,7 @@
 }
 
 #footer .inner {
-    height: 320px;
+    height: 88.8889vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

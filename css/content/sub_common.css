@@ -139,7 +139,7 @@
 #subheader .all_menu .sub_menu li.login a {
     display: inline;
     font-size: 4.4444vw;
-    font-weight: lighter;
+    font-weight: 400;
     margin-right: 2.7778vw;
 }
 #subheader .all_menu .sub_menu li.login a::after {

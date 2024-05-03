@@ -35,6 +35,7 @@
     line-height: 16.6667vw;
 }
 #header .inner h1 img {
+    width: 6.6667vw;
     position: fixed;
     top: 4.1667vw;
     /* transform: translateY(-50%); */
@@ -222,6 +223,7 @@
 }
 .login .login_logo img {
     display: block;
+    width: 26.9444vw;
     margin: 13.8889vw auto;
 }
 

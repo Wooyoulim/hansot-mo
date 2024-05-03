@@ -128,9 +128,7 @@
     transition: 1s;
     /* z-index: 100; */
 }
-#subheader .all_menu .sub_menu li:nth-child(2) {
-    margin-top: 8.3333vw;
-}
+
 #subheader .all_menu .sub_menu li {
     width: 100%;
     text-align: left;

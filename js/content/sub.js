@@ -168,7 +168,7 @@ const store = () => {
     }
 
     function addMarker(position, idx, title) {
-        var imageSrc = './css_sprites.png',
+        var imageSrc = '../../js/content/css_sprites.png',
             imageSize = new kakao.maps.Size(50, 40),
             imgOptions = {
                 spriteSize: new kakao.maps.Size(45, 730),

@@ -12,7 +12,7 @@ img {
 }
 
 .inner {
-    padding: 0 20px;
+    padding: 0 5.5556vw;
     margin: auto;
     box-sizing: border-box;
     position: relative;
@@ -44,38 +44,38 @@ img {
 }
 #visual .main_text {
     text-align: center;
-    font-size: 15px;
-    margin-bottom: 43px;
+    font-size: 4.1667vw;
+    margin-bottom: 11.9444vw;
     font-family: 'Noto Sans KR';
     font-weight: 400;
-    line-height: 25px; /* 166.667% */
-    letter-spacing: -0.75px;
+    line-height: 6.9444vw; /* 166.667% */
+    letter-spacing: -0.2083vw;
 }
 
 #visual .visual_one .main_text {
-    margin-top: 43px;
+    margin-top: 11.9444vw;
 }
 #visual .visual_two .main_text {
-    padding-top: 109px;
+    padding-top: 30.2778vw;
 }
 #visual .visual_three .main_text {
-    padding-top: 102px;
+    padding-top: 28.3333vw;
 }
 #visual strong {
     text-align: center;
     font-family: 'Noto Sans KR';
-    font-size: 80px;
+    font-size: 22.2222vw;
     font-style: normal;
     font-weight: 900;
-    line-height: 110px; /* 137.5% */
-    letter-spacing: -1.6px;
+    line-height: 30.5556vw; /* 137.5% */
+    letter-spacing: -0.4444vw;
     display: block;
 }
 
 #visual img {
     position: fixed;
     left: 50%;
-    top: 245px;
+    top: 68.0556vw;
     transform: translateX(-50%);
     z-index: 5;
 }
@@ -83,11 +83,11 @@ img {
 #visual span {
     text-align: center;
     font-family: 'Noto Sans KR';
-    font-size: 80px;
+    font-size: 22.2222vw;
     font-style: normal;
     font-weight: 900;
-    line-height: 110px; /* 137.5% */
-    letter-spacing: -1.6px;
+    line-height: 30.5556vw; /* 137.5% */
+    letter-spacing: -0.4444vw;
     display: block;
     position: absolute;
     left: 50%;
@@ -105,31 +105,31 @@ img {
     top: 58%;
 }
 #visual .more_button {
-    margin-top: 234px;
-    padding-bottom: 50px;
+    margin-top: 65vw;
+    padding-bottom: 13.8889vw;
     display: flex;
     justify-content: center;
 }
 #visual .more_button a {
     display: block;
-    width: 150px;
-    height: 50px;
-    font-size: 16px;
+    width: 41.6667vw;
+    height: 13.8889vw;
+    font-size: 4.4444vw;
     text-align: center;
-    line-height: 50px;
+    line-height: 13.8889vw;
 }
 
 #visual .visual_one .more_button a {
     color: #f1bb00;
-    border: 1px solid #f1bb00;
+    border: 0.2778vw solid #f1bb00;
 }
 #visual .visual_two .more_button a {
     color: #fff;
-    border: 1px solid #fff;
+    border: 0.2778vw solid #fff;
 }
 #visual .visual_three .more_button a {
     color: #303030;
-    border: 1px solid #303030;
+    border: 0.2778vw solid #303030;
 }
 
 /* //visual */
@@ -147,7 +147,7 @@ img {
 .main .inner {
 }
 .main span {
-    font-size: 30px;
+    font-size: 8.3333vw;
     font-weight: bold;
     color: #303030;
 
@@ -155,8 +155,8 @@ img {
 
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 133.333% */
-    letter-spacing: -0.6px;
+    line-height: 11.1111vw; /* 133.333% */
+    letter-spacing: -0.1667vw;
 }
 .main span > strong {
     color: #f1bb00;
@@ -164,12 +164,12 @@ img {
 
 .main span::after {
     content: '';
-    width: 45px;
-    height: 3px;
+    width: 12.5vw;
+    height: 0.8333vw;
     background: #303030;
     display: block;
-    margin-top: 26px;
-    margin-bottom: 44px;
+    margin-top: 7.2222vw;
+    margin-bottom: 12.2222vw;
 }
 
 .main p {
@@ -185,12 +185,12 @@ img {
 .main b {
     display: inline-block;
     font-family: 'Noto Sans KR';
-    font-size: 15px;
+    font-size: 4.1667vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 25px;
-    letter-spacing: -0.75px;
-    margin-bottom: 50px;
+    line-height: 6.9444vw;
+    letter-spacing: -0.2083vw;
+    margin-bottom: 13.8889vw;
 }
 .main .main_links {
     background-position: 0 0;
@@ -198,35 +198,35 @@ img {
     background-size: cover;
 }
 .main .main_links .all_menu {
-    margin-bottom: 20px;
+    margin-bottom: 5.5556vw;
     background-image: url(../../images/main/all_menu.png);
     width: 100%;
-    height: 150px;
+    height: 41.6667vw;
     position: relative;
 }
 .main .main_links .find_store {
-    margin-bottom: 100px;
+    margin-bottom: 27.7778vw;
     background-image: url(../../images/main/find_store.png);
     width: 100%;
-    height: 150px;
+    height: 41.6667vw;
     position: relative;
 }
 
 .main .main_links p {
     color: #fff;
-    font-size: 25px;
+    font-size: 6.9444vw;
     font-weight: 700;
     position: absolute;
-    left: 13px;
-    bottom: 13px;
+    left: 3.6111vw;
+    bottom: 3.6111vw;
     margin-bottom: 0;
 }
 .main .main_links img {
-    width: 50px;
-    height: 50px;
+    width: 13.8889vw;
+    height: 13.8889vw;
     position: absolute;
-    right: 16px;
-    bottom: 14px;
+    right: 4.4444vw;
+    bottom: 3.8889vw;
 }
 
 /* //section */

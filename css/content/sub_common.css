@@ -240,6 +240,7 @@
     height: 163.8889vw;
 }
 #sub_visual img {
+    width:100vw;
     position: absolute;
     top: 0px;
     z-index: -1;

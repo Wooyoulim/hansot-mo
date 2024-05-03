@@ -151,7 +151,7 @@ const store = () => {
     }
 
     function addMarker(position, idx, title) {
-        var imageSrc = './images/store/css_sprites.png',
+        var imageSrc = '../../images/content/store/css_sprites.png',
             imageSize = new kakao.maps.Size(50, 40),
             imgOptions = {
                 spriteSize: new kakao.maps.Size(45, 730),
@@ -229,6 +229,23 @@ const store = () => {
 // 고객의 소리
 
 // 공통
+
+const common = () => {
+    let $fqaBtn = get('.select .choice .faqbtn');
+    let $vocBtn = get('.select .choice .vocbtn');
+    console.log($fqaBtn);
+
+    $fqaBtn.addEventListener('click', (e) => {
+        $fqaBtn.classList.add(on);
+        $vocBtn.classList.remove(on);
+        window.open('frequentlyasked.html');
+    });
+    $vocBtn.addEventListener('click', (e) => {
+        $fqaBtn.classList.remove(on);
+        $vocBtn.classList.add(on);
+        window.open('voc.html');
+    });
+};
 
 //자주묻는 질문
 
@@ -342,8 +359,10 @@ const goInit = () => {
         product();
     } else if (location.pathname.split('/').pop() === 'frequentlyasked.html') {
         fqa();
+        common();
     } else if (location.pathname.split('/').pop() === 'voc.html') {
         voc();
+        common();
     } else if (location.pathname.split('/').pop() === 'store.html') {
         store();
     }

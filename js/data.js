@@ -1,0 +1,192 @@
+//자주묻는질문
+
+const faqPosts = [
+    {
+        id: 1,
+        sort: '이용방법',
+        title: '주문앱으로 배달 가능한가요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 2,
+        sort: '계정',
+        title: '회원가입을 하면 어떤 장점이 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 3,
+        sort: '이용방법',
+        title: '비회원으로 주문이 가능한가요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 4,
+        sort: '점포',
+        title: '제 주변에 있는 한솥 점포를 어떻게 찾을 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 5,
+        sort: '점포',
+        title: '점포 영업시간은 어디서 확인 할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 6,
+        sort: '이용방법',
+        title: '주문앱의 혜택이 무엇인가요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 7,
+        sort: '계정',
+        title: '회원정보는 어떻게 업데이트 할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 8,
+        sort: '이용방법',
+        title: '주문앱으로 결제 방법은 무엇이 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 9,
+        sort: '계정',
+        title: '로그아웃은 어떻게 할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 10,
+        sort: '이용방법',
+        title: '주문앱으로 주문하면 언제 음식이 만들어지나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 11,
+        sort: '계정',
+        title: '주문내역은 어디서 확인 할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 12,
+        sort: '이용방법',
+        title: '주문앱으로 주문 수량 제한이 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 13,
+        sort: '계정',
+        title: '비밀번호를 잊었습니다. 어떻게 해야 되나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 14,
+        sort: '이용방법',
+        title: '주문앱으로 주문한 음식은 언제 픽업 하면 되나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 15,
+        sort: '이용방법',
+        title: '주문 넣은 후 주문 수정 가능한가요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 16,
+        sort: '이용방법',
+        title: '주문 취소는 어떻게 하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 17,
+        sort: '이용방법',
+        title: '주문앱으로 단체주문은 어떻게 하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 18,
+        sort: '이용방법',
+        title: '주문앱을 이용한 주문은 몇시 부터 몇시 까지 가능하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 19,
+        sort: '이용방법',
+        title: '점포에 도착 후 도시락은 어떻게 픽업 하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 20,
+        sort: '이용방법',
+        title: '주문앱으로 후불 가능한가요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 21,
+        sort: '이용방법',
+        title: '비회원 주문 내역은 어디서 확인하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 22,
+        sort: '이용방법',
+        title: '결제를 완료했는데 메뉴를 추가하고 싶어요.',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 23,
+        sort: '이용방법',
+        title: '픽업 시간 알림이 따로 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 24,
+        sort: '이용방법',
+        title: '점포에 도착 후 도시락은 어떻게 픽업 하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 25,
+        sort: '결제',
+        title: '결제 PIN번호를 잊어버렸습니다.',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 26,
+        sort: '결제',
+        title: '왜 와이파이로는 결제가 되지않나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 27,
+        sort: '결제',
+        title: '결제가 이중으로 되었어요. 어떻게 해야 하나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 28,
+        sort: '계정',
+        title: '회원정보는 어떻게 업데이트 할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 29,
+        sort: '계정',
+        title: '가입시 만들었던 아이디를 변경할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 30,
+        sort: '계정',
+        title: '회원 탈퇴 후 재가입을 할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+    {
+        id: 31,
+        sort: '쿠폰',
+        title: '모바일 시식권을 쿠폰으로 사용할 수 있나요?',
+        icon: 'images/content/frequently_asked/arrow_right.png',
+    },
+];
+
+export { faqPosts };

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Document</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/content/sub_common.css" />
+        <link rel="stylesheet" href="css/content/sub_style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <header id="subheader"></header>
+            <section id="sub_visual">
+                <img src="images/content/brandstory/story_bg.png" alt="한솥이야기" />
+                <div class="subject">
+                    <strong>한솥이야기</strong>
+                    <p class="eng_name">BRAND STORY</p>
+                </div>
+            </section>
+            <main id="container" class="brandstory">
+                <section id="content">
+                    <h2>든든한 솥밥을 위해<strong>지키고, 키워가는 것들</strong></h2>
+                    <p>
+                        종로에 8평짜리 1호점을 냈을 때의 이야기입니다.<br />
+                        배달 없이 시작하겠다는 소리에 모두가 말렸습니다.<br />
+                        하지만, 진심이 담긴 도시락 앞에<br />
+                        사람들은 줄을 서며 기다렸습니다.<br />
+                        더 착한 가격으로, 더 값진 가치를 담아,<br />
+                        더 많은 사람들에게 돌려드리고 싶다는 그 진심 말입니다.
+                    </p>
+
+                    <p>
+                        그 진심은 1993년 1호점을 시작으로<br />
+                        2020년 730호점까지 이어지고 있습니다.<br />
+                        그리고 1억 5천만 그릇의 치킨마요로,<br />
+                        7000만 그릇의 동백도시락으로,
+                    </p>
+
+                    <p>
+                        200여종의 새로운 메뉴로 6억 3천만개의 도시락으로<br />
+                        고객에게 찾아가 따끈한 한끼가 되었습니다.
+                    </p>
+                    <div class="brandstory_swiper swiper mySwiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="./images/content/brandstory/image0.png" alt="" />
+                                <div class="swiper_text">
+                                    <strong>갓 지은 진심 한 끼에는<br />힘이 있습니다</strong
+                                    ><span
+                                        >한솥은 쌀의 맛과 가격을 위하여<br />
+                                        엄격한 테스트를 통하여 선정하고 있습니다.<br />
+                                        또한, 점주교육을 통해 <br />
+                                        따끈한 한 끼의 힘에 대해 늘 고민합니다.</span
+                                    >
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="./images/content/brandstory/image1.png" alt="" />
+                                <div class="swiper_text">
+                                    <strong>변함없이 한결같아서<br />한솥입니다</strong
+                                    ><span
+                                        >한솥의 한결같음은 도시락에 그치지 않습니다.<br />
+                                        수많은 복지관과 보육원은 물론,<br />
+                                        4개 의료기관을 후원하고 있으며,<br />
+                                        사회공헌활동 또한 멈추지 않고 있습니다.</span
+                                    >
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="./images/content/brandstory/image2.png" alt="" />
+                                <div class="swiper_text">
+                                    <strong>착한 솥밥이<br />약속합니다</strong
+                                    ><span
+                                        >고객분들께서 하시는 말씀이 있습니다.<br />
+                                        한솥은 참 착하다는 말입니다.<br />
+                                        따끈한 한 끼로 세상의 온기가 되겠다는 초심,<br />
+                                        결코 잃지 않겠습니다.</span
+                                    >
+                                </div>
+                            </li>
+                        </ul>
+                        <p class="swiper-pagination">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </p>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer"></footer>
+        </div>
+        <script src="js/common/common.js"></script>
+        <!-- <script type="module" src="js/content/sub.js"></script> -->
+        <script>
+            var swiper = new Swiper('.mySwiper', {
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+            });
+        </script>
+    </body>
+</html>

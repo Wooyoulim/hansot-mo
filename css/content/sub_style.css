@@ -1,0 +1,699 @@
+/*  한솥이야기 */
+
+/* brandstory */
+.brandstory {
+}
+.brandstory h2 {
+    margin-top: 160px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #303030;
+    margin-bottom: 37px;
+}
+.brandstory h2 strong {
+    display: block;
+    color: #f1bb00;
+}
+.brandstory p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #303030;
+    margin-bottom: 25px;
+}
+
+.brandstory p:last-child {
+    margin-bottom: 0;
+}
+.brandstory p:nth-of-type(3)::after {
+    content: '';
+    display: block;
+    width: 206px;
+    height: 5px;
+    background: #303030;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.brandstory .brandstory_swiper {
+    overflow: hidden;
+    position: relative;
+}
+.brandstory .brandstory_swiper .swiper-wrapper {
+    display: flex;
+}
+.brandstory .brandstory_swiper .swiper-wrapper > li {
+    width: 360px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.brandstory .brandstory_swiper .swiper-wrapper > li img {
+}
+.brandstory .brandstory_swiper .swiper-wrapper .swiper-slide .swiper_text {
+}
+.brandstory .brandstory_swiper .swiper-wrapper .swiper-slide .swiper_text {
+    text-align: center;
+}
+.brandstory .brandstory_swiper .swiper-wrapper .swiper-slide .swiper_text > strong {
+    font-size: 15px;
+    color: #303030;
+    font-weight: bold;
+    display: block;
+    width: 300px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.brandstory .brandstory_swiper .swiper-wrapper .swiper-slide .swiper_text > span {
+    font-size: 14px;
+    color: #303030;
+    font-weight: lighter;
+    display: block;
+    margin-bottom: 100px;
+    width: 300px;
+}
+.brandstory .brandstory_swiper .swiper-pagination {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 326px;
+}
+.brandstory .brandstory_swiper .swiper-pagination span {
+    background: #f1bb00;
+}
+
+/*  //.한솥이야기 */
+
+/*  전체메뉴 */
+
+.product {
+    margin-top: 166px;
+    margin-bottom: 100px;
+}
+.product .product_list {
+    padding: 0 20px;
+}
+.product .product_list > li {
+    height: 40px;
+    border: 1px solid #303030;
+    border-bottom: 0;
+}
+
+.product .product_list > li:last-of-type {
+    border-bottom: 1px solid #303030;
+}
+.product .product_list > li.on {
+    background: #303030;
+}
+
+.product .product_list > li.on p {
+    color: #f1bb00;
+}
+
+.product .product_list > li p {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #303030;
+    line-height: 40px;
+}
+.product .product_all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.5s linear;
+    height: 0px;
+    overflow: hidden;
+}
+
+.product .product_all.on {
+    height: 500px;
+}
+
+.product .product_list li.on .product_all > li {
+    display: block;
+}
+.product .product_all > li {
+    width: 160px;
+    height: 160px;
+    padding: 26px 17px 26px 16px;
+    box-sizing: border-box;
+
+    position: relative;
+    transition: 0.5s linear;
+}
+
+.product .product_all > li::before {
+    content: '';
+    width: 160px;
+    height: 160px;
+    background: rgba(48, 48, 48, 0.8);
+    opacity: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.4s linear;
+}
+
+.product .product_all > li::after {
+    display: block;
+    text-align: center;
+    text-wrap: nowrap;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #f1bb00;
+    opacity: 0;
+    transition: 0.4s linear;
+}
+
+.product .product_all.on li {
+    display: block;
+    transform: translateY(0px);
+}
+
+.product .product_all li img {
+    width: 127px;
+    height: 108px;
+}
+
+.product .product_all:nth-of-type(1) > li:nth-of-type(1):after {
+    content: '스페셜하이라이스';
+}
+.product .product_all:nth-of-type(1) > li:nth-of-type(2):after {
+    content: '송정식 떡갈비 Ⅱ';
+}
+.product .product_all:nth-of-type(1) > li:nth-of-type(3):after {
+    content: '이남장 설렁탕';
+}
+.product .product_all:nth-of-type(1) > li:nth-of-type(4):after {
+    content: '제육돈까스 도련님';
+}
+.product .product_all:nth-of-type(1) > li:nth-of-type(5):after {
+    content: '사골 조랭이떡 만둣국';
+}
+.product .product_all:nth-of-type(1) > li:nth-of-type(6):after {
+    content: '메가치킨마요';
+}
+.product .product_all:nth-of-type(2) > li:nth-of-type(1):after {
+    content: '해바라기';
+}
+.product .product_all:nth-of-type(2) > li:nth-of-type(2):after {
+    content: '매화';
+}
+.product .product_all:nth-of-type(2) > li:nth-of-type(3):after {
+    content: '진달래';
+}
+.product .product_all:nth-of-type(2) > li:nth-of-type(4):after {
+    content: '개나리';
+}
+.product .product_all:nth-of-type(2) > li:nth-of-type(5):after {
+    content: '무궁화';
+}
+.product .product_all:nth-of-type(2) > li:nth-of-type(6):after {
+    content: '동백';
+}
+.product .product_all:nth-of-type(3) > li:nth-of-type(1):after {
+    content: '돈까스도련님';
+}
+.product .product_all:nth-of-type(3) > li:nth-of-type(2):after {
+    content: '숯불직화구이';
+}
+.product .product_all:nth-of-type(3) > li:nth-of-type(3):after {
+    content: '메가치킨제육';
+}
+.product .product_all:nth-of-type(3) > li:nth-of-type(4):after {
+    content: '돈치스팸';
+}
+.product .product_all:nth-of-type(3) > li:nth-of-type(5):after {
+    content: '제육볶음';
+}
+.product .product_all:nth-of-type(3) > li:nth-of-type(6):after {
+    content: '떡갈비 도련님';
+}
+.product .product_all:nth-of-type(4) > li:nth-of-type(1):after {
+    content: '치킨마요';
+}
+.product .product_all:nth-of-type(4) > li:nth-of-type(2):after {
+    content: '참치마요';
+}
+.product .product_all:nth-of-type(4) > li:nth-of-type(3):after {
+    content: '아보카도 명란 비빔밥';
+}
+.product .product_all:nth-of-type(4) > li:nth-of-type(4):after {
+    content: '잡채볶음밥';
+}
+.product .product_all:nth-of-type(4) > li:nth-of-type(5):after {
+    content: '나시고랭';
+}
+.product .product_all:nth-of-type(4) > li:nth-of-type(6):after {
+    content: '치킨마요 정식';
+}
+.product .product_all:nth-of-type(5) > li:nth-of-type(1):after {
+    content: '3종 미니반찬A';
+}
+.product .product_all:nth-of-type(5) > li:nth-of-type(2):after {
+    content: '3종 미니반찬B';
+}
+.product .product_all:nth-of-type(5) > li:nth-of-type(3):after {
+    content: '반찬 묵은지김치찌개';
+}
+.product .product_all:nth-of-type(5) > li:nth-of-type(4):after {
+    content: '반찬 카레';
+}
+.product .product_all:nth-of-type(5) > li:nth-of-type(5):after {
+    content: '통현미 닭강정';
+}
+.product .product_all:nth-of-type(5) > li:nth-of-type(6):after {
+    content: '리얼꿀 미니호떡';
+}
+
+.product .product_all > li:hover::before {
+    opacity: 1;
+}
+
+.product .product_all > li:hover::after {
+    opacity: 1;
+}
+
+/*  //.전체메뉴 */
+
+/*  한솥꿀조합레시피 */
+
+/*  //.한솥꿀조합레시피 */
+
+/*  주변점포찾기 */
+
+/*  //.주변점포찾기 */
+
+/*  가맹점 소개 */
+/* franchise */
+
+.sub_franchise h2 {
+    color: var(--303030, #303030);
+    /* 모바일-B */
+    font-family: 'Noto Sans KR';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.75px;
+}
+.sub_franchise p {
+    color: var(--303030, #303030);
+    /* 모바일-L */
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; /* 178.571% */
+    letter-spacing: -0.7px;
+    margin-left: 55px;
+    word-break: keep-all;
+}
+
+.family {
+    margin: auto;
+    width: 320px;
+}
+.family > h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 38px;
+}
+.family > p {
+    width: 265px;
+    font-weight: 400;
+}
+.family span {
+    margin-top: 44px;
+    margin-left: 55px;
+    display: inline-block;
+    width: 265px;
+    border: 2px solid #303030;
+}
+
+.reason {
+    margin: auto;
+    width: 320px;
+    position: relative;
+}
+.reason > h2 {
+    width: 98px;
+    margin: 50px 0;
+}
+
+.reason .one li strong,
+.reason .two li strong,
+.reason .three li strong {
+    position: absolute;
+    color: var(--f-1-bb-00, #f1bb00);
+    font-family: 'Noto Sans KR';
+    font-size: 102.128px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -5.106px;
+    left: -44px;
+    bottom: 172px;
+}
+
+.reason .one li img,
+.reason .two li img,
+.reason .three li img {
+    margin-left: 55px;
+}
+.reason .one li h2,
+.reason .two li h2,
+.reason .three li h2 {
+    margin-top: 24px;
+}
+.reason .one li span,
+.reason .two li span,
+.reason .three li span {
+    margin: 20px 0 18px 0;
+    display: inline-block;
+    width: 320px;
+    border: 1px solid #303030;
+}
+.reason .one li p,
+.reason .two li p {
+    margin-bottom: 72px;
+}
+.reason .three li p {
+    margin-bottom: 100px;
+}
+
+/*  //.가맹점 소개 */
+
+/* 자주묻는질문  */
+
+.sub_fqa {
+    margin-top: 100px;
+}
+.sub_fqa #content {
+    /* display: block; */
+    width: 320px;
+    margin: auto;
+}
+.sub_fqa .select {
+    width: 100%;
+}
+.sub_fqa .select .choice {
+    width: 320px;
+    display: flex;
+}
+.sub_fqa .select .choice li {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #303030;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sub_fqa .select .choice li.on {
+    background: #303030;
+    color: #f1bb00;
+}
+.sub_fqa .select .choice li:last-child {
+    margin-left: -1px;
+}
+.sub_fqa .faq_group {
+    margin-top: 30px;
+}
+.sub_fqa .faq_group ul {
+    border-bottom: 5px solid #303030;
+    display: flex;
+    justify-content: space-between;
+}
+.sub_fqa .faq_group ul li {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.sub_fqa .faq_group ul li.on a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #f1bb00;
+}
+.sub_fqa .faq {
+}
+.sub_fqa .faq tbody {
+}
+.sub_fqa .faq tbody tr {
+    width: 320px;
+    display: block;
+    font-size: 15px;
+    line-height: 70px;
+    border-bottom: 1px solid #e2ddd7;
+}
+.sub_fqa .faq_paging {
+    width: 210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.sub_fqa .faq_paging a {
+    display: block;
+    margin: 30px 20px 100px 20px;
+}
+
+.sub_fqa .faq_paging a.on {
+    color: #f1bb00;
+    font-weight: bold;
+}
+
+/*  //.자주묻는질문 */
+
+/*  고객의 소리 */
+
+/* voc */
+.voc {
+    margin-top: 100px;
+}
+.voc #content {
+    /* display: block; */
+    width: 320px;
+    margin: auto;
+}
+
+.voc .select {
+    width: 100%;
+}
+.voc .select .choice {
+    width: 320px;
+    display: flex;
+}
+.voc .select .choice li {
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #303030;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.voc .select .choice li.on {
+    background: #303030;
+    color: #f1bb00;
+}
+.voc strong {
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+
+.voc .voc_first {
+    width: 320px;
+    margin: auto;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #303030;
+}
+.voc .voc_first label {
+    font-size: 14px;
+    color: #303030;
+    margin-right: 10px;
+}
+
+.voc .voc_first label:last-of-type {
+    margin-right: 0;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14.22px;
+    height: 14.22px;
+    border: 1px solid #303030;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input[type='radio']:checked {
+    background-color: #303030;
+    border: 2.5px solid white;
+    box-shadow: 0 0 0 1px #303030;
+}
+
+/* //문의구분 */
+
+/* 점포명 */
+
+.w155 {
+    width: 155px;
+    margin: auto;
+}
+
+.w320 {
+    width: 320px;
+    margin: auto;
+}
+
+.voc input[type='text'],
+select {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #303030;
+}
+
+.voc .voc_second {
+    width: 320px;
+    margin: auto;
+}
+
+/* //점포명 */
+
+/* 문의내용 */
+.voc .voc_third {
+    width: 320px;
+    margin: auto;
+}
+
+.voc .voc_third input[type='text']:last-of-type {
+    height: 315px;
+}
+
+/* //문의내용 */
+
+/* 파일첨부 */
+.voc .voc_fourth {
+    width: 320px;
+    margin: auto;
+}
+
+.voc .voc_fourth .voc_file_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #303030;
+}
+.voc .voc_fourth .voc_file_wrap .voc_file_label {
+    background-image: url(../images/content/voc/file_icon.png);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 16px;
+    height: 15.57px;
+    margin-bottom: 17.43px;
+}
+
+.voc .voc_fourth input[type='file'] {
+    display: none;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.voc .voc_fourth span {
+    width: 320px;
+    margin-top: 10px;
+    display: block;
+    font-size: 13px;
+    font-weight: lighter;
+    text-align: right;
+    color: #303030;
+}
+
+/* //파일첨부 */
+
+/* 개인정보 수집 동의 */
+
+.voc .voc_fifth {
+    width: 320px;
+    margin: auto;
+}
+
+.voc .voc_fifth p {
+    font-size: 14px;
+    color: #303030;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #303030;
+    margin-bottom: 50px;
+}
+
+/* 체크박스 */
+
+.voc .voc_fifth input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.voc .voc_fifth label::before {
+    margin-left: 30px;
+    display: inline-block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    margin-right: 14px;
+    background-image: url('../images/content/voc/checkbox.png');
+    vertical-align: middle;
+}
+
+/*체크했을 때*/
+
+.voc .voc_fifth input:checked + label::before {
+    background-image: url('../images/content/voc/checkbox_checked.png');
+}
+
+.voc .voc_fifth > span {
+    font-size: 15px;
+    color: #303030;
+}
+.voc .faq_button {
+    margin: auto;
+    width: 160px;
+    height: 40px;
+    background: #303030;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.voc .faq_button a {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #f1bb00;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* //개인정보 수집 동의 */
+
+/*  //.고객의 소리 */

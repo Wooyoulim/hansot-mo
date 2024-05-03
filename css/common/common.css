@@ -1,0 +1,283 @@
+/* 전체페이지공통 */
+#wrap {
+    width: 100%;
+}
+#header,
+#subheader #visual,
+#sub-visual,
+#container,
+#content,
+#footer {
+    width: 100%;
+}
+.inner {
+}
+
+/* 메인 헤더 */
+
+#header {
+    width: 360px;
+    height: 60px;
+    position: relative;
+    /* background: transparent; */
+}
+
+#header .inner {
+    height: 60px;
+
+    overflow: hidden;
+    position: relative;
+}
+#header .inner h1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 60px;
+}
+#header .inner h1 img {
+    position: fixed;
+    top: 15px;
+    /* transform: translateY(-50%); */
+    left: 20px;
+    z-index: 100;
+}
+#header h1 .all_menu {
+    width: 360px;
+    overflow: hidden;
+    height: 60px;
+}
+
+#header h1 .all_menu .icon {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    /* top: 50%;
+    transform: translateY(-50%); */
+    /* transform: translate(320px, 5px); */
+    z-index: 100;
+    cursor: pointer;
+}
+
+#header h1 .all_menu .menu {
+    display: block;
+    background: #303030;
+    width: 25px;
+    height: 5px;
+    transition: 0.55s;
+    margin-bottom: 5px;
+    position: absolute;
+}
+#header h1 .all_menu .icon .top {
+    top: 0;
+}
+#header h1 .all_menu .icon .middle {
+    top: 10px;
+}
+#header h1 .all_menu .icon .bottom {
+    top: 20px;
+}
+#header h1 .all_menu .icon .top.on {
+    top: 5px;
+    transform: rotate(50deg);
+    transition: 0.55s 0.5s;
+}
+#header h1 .all_menu .icon .middle.on {
+    opacity: 0;
+}
+#header h1 .all_menu .icon .bottom.on {
+    top: 5px;
+    transform: rotate(-410deg);
+    transition: 0.55s 0.5s;
+}
+
+/* 헤더 하위메뉴 */
+
+#header .all_menu .sub_menu {
+    width: 100%;
+    height: 100%;
+    background: #f1bb00;
+    padding-top: 60px;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 360px;
+    transition: 1s;
+}
+#header .all_menu .sub_menu li {
+    width: 100%;
+    text-align: left;
+    text-indent: 20px;
+}
+#header .all_menu .sub_menu li.login a {
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+#header .all_menu .sub_menu li.login a::after {
+    content: '';
+    height: 13px;
+    width: 1px;
+    background: #303030;
+    display: inline-block;
+    margin-left: 10px;
+}
+#header .all_menu .sub_menu li.login a:last-child {
+    margin-right: 0;
+}
+#header .all_menu .sub_menu li.login a:last-child::after {
+    display: none;
+}
+#header .all_menu .sub_menu li a {
+    width: 360px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    /* padding-left: 20px; */
+}
+/* //.헤더 */
+
+/* 푸터 */
+
+#footer {
+    background: #f1bb00;
+    margin: auto;
+    text-align: center;
+}
+
+#footer .inner {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer .footer_sns {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    border-bottom: 3px solid #303030;
+    margin-top: 20px;
+}
+#footer .footer_sns li {
+    margin-bottom: 20px;
+}
+#footer .footer_sns li a {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+#footer .footer_sns li:nth-child(1) a {
+    background-image: url(../../images/common/kakao.png);
+}
+#footer .footer_sns li:nth-child(2) a {
+    background-image: url(../../images/common/naver.png);
+}
+#footer .footer_sns li:nth-child(3) a {
+    background-image: url(../../images/common/instagram.png);
+}
+#footer .footer_sns li:nth-child(4) a {
+    background-image: url(../../images/common/naver\ blog.png);
+    margin-right: 0px;
+}
+
+#footer .info p {
+    font-size: 14px;
+    line-height: 24px;
+}
+#footer .info p span::after {
+    content: '';
+    height: 10px;
+    width: 1px;
+    background: #303030;
+    display: inline-block;
+    margin: 0 5px;
+}
+#footer .info p span:last-child::after {
+    display: none;
+}
+#footer .info p span.founded_number {
+    margin-left: -5px;
+}
+/* //.푸터 */
+
+/* 로그인 */
+
+.login {
+}
+.login #content {
+    width: 320px;
+    margin: auto;
+}
+.login .login_logo {
+    width: 100%;
+    height: 165px;
+}
+.login .login_logo img {
+    display: block;
+    margin: 50px auto;
+}
+
+.login .typing {
+    width: 320px;
+}
+.login .typing .text:focus {
+    border-color: none;
+    outline: none;
+}
+.login .typing input {
+    width: 320px;
+    border: none;
+    height: 60px;
+    border-bottom: 3px solid #303030;
+}
+.login .search {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+.login .search li {
+    margin-right: 10px;
+}
+.login .search li:first-child::after {
+    content: '';
+    height: 14px;
+    width: 1px;
+    background: #303030;
+    opacity: 0.5;
+    display: inline-block;
+    margin-left: 10px;
+    z-index: -1;
+}
+.login .click {
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.login .click li {
+    margin: auto;
+    width: 210px;
+    border: 1px solid #303030;
+    text-align: center;
+    line-height: 50px;
+}
+.login .click li:first-child {
+    margin-bottom: 15px;
+}
+
+.login .click li.on {
+    background: #303030;
+}
+.login .click li.on a {
+    color: #f1bb00;
+}
+/*  //.로그인 */

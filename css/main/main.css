@@ -1,0 +1,238 @@
+img {
+    max-width: 100%;
+}
+
+#wrap,
+#header,
+#visual,
+#container,
+#content,
+#footer {
+    width: 100%;
+}
+
+.inner {
+    padding: 0 20px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* main */
+
+/* visual */
+#visual {
+}
+
+#visual .visual_one {
+    position: relative;
+    color: #f1bb00;
+    height: 100vh;
+}
+
+#visual .visual_two {
+    position: relative;
+    background: #303030;
+    color: #fff;
+    height: 100vh;
+}
+#visual .visual_three {
+    position: relative;
+    background: #f1bb00;
+    color: #303030;
+    height: 100vh;
+}
+#visual .main_text {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 43px;
+    font-family: 'Noto Sans KR';
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.75px;
+}
+
+#visual .visual_one .main_text {
+    margin-top: 43px;
+}
+#visual .visual_two .main_text {
+    padding-top: 109px;
+}
+#visual .visual_three .main_text {
+    padding-top: 102px;
+}
+#visual strong {
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110px; /* 137.5% */
+    letter-spacing: -1.6px;
+    display: block;
+}
+
+#visual img {
+    position: fixed;
+    left: 50%;
+    top: 245px;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+#visual span {
+    text-align: center;
+    font-family: 'Noto Sans KR';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110px; /* 137.5% */
+    letter-spacing: -1.6px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+}
+
+#visual .visual_one span {
+    top: 50%;
+}
+#visual .visual_two span {
+    top: 59%;
+}
+#visual .visual_three span {
+    top: 58%;
+}
+#visual .more_button {
+    margin-top: 234px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+#visual .more_button a {
+    display: block;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#visual .visual_one .more_button a {
+    color: #f1bb00;
+    border: 1px solid #f1bb00;
+}
+#visual .visual_two .more_button a {
+    color: #fff;
+    border: 1px solid #fff;
+}
+#visual .visual_three .more_button a {
+    color: #303030;
+    border: 1px solid #303030;
+}
+
+/* //visual */
+
+/* section */
+
+.main {
+}
+.main img {
+    width: 100%;
+    position: relative;
+    z-index: 15;
+}
+
+.main .inner {
+}
+.main span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #303030;
+
+    font-family: 'Noto Sans KR';
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+    letter-spacing: -0.6px;
+}
+.main span > strong {
+    color: #f1bb00;
+}
+
+.main span::after {
+    content: '';
+    width: 45px;
+    height: 3px;
+    background: #303030;
+    display: block;
+    margin-top: 26px;
+    margin-bottom: 44px;
+}
+
+.main p {
+    font-size: 15px;
+    color: #303030;
+    margin-bottom: 25px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: -0.75px;
+}
+.main b {
+    display: inline-block;
+    font-family: 'Noto Sans KR';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.75px;
+    margin-bottom: 50px;
+}
+.main .main_links {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main .main_links .all_menu {
+    margin-bottom: 20px;
+    background-image: url(../../images/main/all_menu.png);
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.main .main_links .find_store {
+    margin-bottom: 100px;
+    background-image: url(../../images/main/find_store.png);
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.main .main_links p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 13px;
+    bottom: 13px;
+    margin-bottom: 0;
+}
+.main .main_links img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+}
+
+/* //section */
+
+/* //main */
+
+/* footer */
+
+/* //footer */

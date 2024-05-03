@@ -289,9 +289,243 @@
 
 /*  한솥꿀조합레시피 */
 
+:root {
+    --swiper-theme-color: #f1bb00;
+}
+#wrap {
+    width: 100%;
+}
+#header {
+}
+
+.recipe {
+    position: relative;
+}
+.recipe .swiper-slide {
+    position: relative;
+}
+
+.recipe .jmt {
+    margin-top: 44.1667vw;
+    margin-bottom: 10.5556vw;
+}
+.recipe .jmt p {
+    font-size: 4.1667vw;
+    font-weight: 700;
+    text-align: center;
+    line-height: 6.9444vw;
+}
+.recipe .jmt .mix {
+    color: #f1bb00;
+}
+.recipe .han_sot {
+    margin-bottom: 13.8889vw;
+}
+.recipe .han_sot p {
+    text-align: center;
+    font-size: 3.8889vw;
+}
+.recipe .line {
+    width: 57.2222vw;
+    height: 1.1111vw;
+    margin: auto;
+    background-color: #303030;
+    margin-bottom: 13.8889vw;
+}
+.recipes {
+    position: relative;
+}
+.recipes .swiper-wrapper img {
+    padding-left: 5.8333vw;
+}
+
+.recipes .swiper-wrapper .swiper-slide p:nth-of-type(1) {
+    margin-top: 15.8333vw;
+    margin-bottom: 4.1667vw;
+}
+.recipes .swiper-wrapper .swiper-slide p {
+    text-align: center;
+    font-size: 4.1667vw;
+    font-weight: 700;
+}
+.recipes .swiper-wrapper .swiper-slide .txt {
+    text-align: center;
+    font-size: 3.8889vw;
+    font-weight: 300;
+}
+.recipes .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #f1bb00;
+}
+.recipes .circle {
+    position: absolute;
+    left: 38%;
+    top: 65%;
+    width: 22.2222vw;
+}
+
 /*  //.한솥꿀조합레시피 */
 
 /*  주변점포찾기 */
+
+#wrap {
+}
+.map_wrap,
+.map_wrap * {
+    margin: 0;
+    padding: 0;
+    font-size: 3.3333vw;
+}
+.map_wrap a,
+.map_wrap a:hover,
+.map_wrap a:active {
+    color: #000;
+    text-decoration: none;
+}
+.map_wrap {
+    position: relative;
+    width: 100%;
+    height: 138.8889vw;
+    margin: auto;
+}
+#menu_wrap {
+    width: 69.4444vw;
+    margin: auto;
+    padding: 1.3889vw;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    font-size: 3.3333vw;
+    border-radius: 2.7778vw;
+}
+.bg_white {
+    background: #fff;
+}
+#menu_wrap hr {
+    display: block;
+    height: 0.2778vw;
+    border: 0;
+    border-top: 0.5556vw solid #5f5f5f;
+    margin: 0.8333vw 0;
+}
+#menu_wrap .option {
+    text-align: center;
+}
+#menu_wrap .option p {
+    margin: 2.7778vw 0;
+}
+#menu_wrap .option button {
+    margin-left: 1.3889vw;
+    background-color: #303030;
+    color: #f1bb00;
+    width: 11.1111vw;
+    margin-bottom: 8.3333vw;
+    margin-top: 8.3333vw;
+}
+#placesList li {
+    list-style: none;
+}
+#placesList .item {
+    position: relative;
+    border-bottom: 0.2778vw solid #888;
+    overflow: hidden;
+    cursor: pointer;
+    min-height: 18.0556vw;
+}
+#placesList .item span {
+    display: block;
+    margin-top: 1.1111vw;
+}
+#placesList .item h5,
+#placesList .item .info {
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#placesList .item .info {
+    padding: 2.7778vw 0 2.7778vw 15.2778vw;
+}
+#placesList .info .gray {
+    color: #8a8a8a;
+}
+#placesList .info .jibun {
+    padding-left: 7.2222vw;
+    background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png)
+        no-repeat;
+}
+#placesList .info .tel {
+    color: #009900;
+}
+#placesList .item .markerbg {
+    float: left;
+    position: absolute;
+    width: 16.6667vw;
+    height: 16.6667vw;
+    left: -5.5556vw;
+    margin: 2.7778vw 0 0 2.7778vw;
+
+    background: url(../../images/content/store/css_sprites2.png) no-repeat;
+}
+#placesList .item .marker_1 {
+    background-position: 0 -0.5556vw;
+}
+#placesList .item .marker_2 {
+    background-position: 0 -0.5556vw;
+}
+#placesList .item .marker_3 {
+    background-position: 0 -0.5556vw;
+}
+#placesList .item .marker_4 {
+    background-position: 0 -0.5556vw;
+}
+#placesList .item .marker_5 {
+    background-position: 0 -53.8889vw;
+}
+#placesList .item .marker_6 {
+    background-position: 0 -66.6667vw;
+}
+#placesList .item .marker_7 {
+    background-position: 0 -79.4444vw;
+}
+#placesList .item .marker_8 {
+    background-position: 0 -92.2222vw;
+}
+#placesList .item .marker_9 {
+    background-position: 0 -105vw;
+}
+#placesList .item .marker_10 {
+    background-position: 0 -117.5vw;
+}
+#placesList .item .marker_11 {
+    background-position: 0 -130.5556vw;
+}
+#placesList .item .marker_12 {
+    background-position: 0 -143.3333vw;
+}
+#placesList .item .marker_13 {
+    background-position: 0 -156.1111vw;
+}
+#placesList .item .marker_14 {
+    background-position: 0 -168.8889vw;
+}
+#placesList .item .marker_15 {
+    background-position: 0 -181.6667vw;
+}
+#pagination {
+    margin: 2.7778vw auto;
+    text-align: center;
+}
+#pagination a {
+    display: inline-block;
+    margin-right: 5.5556vw;
+    font-size: 5.5556vw;
+}
+#pagination .on {
+    font-weight: bold;
+    cursor: default;
+    color: #f1bb00;
+}
 
 /*  //.주변점포찾기 */
 
@@ -603,7 +837,7 @@ select {
     border-bottom: 1px solid #303030;
 }
 .voc .voc_fourth .voc_file_wrap .voc_file_label {
-    background-image: url(../images/content/voc/file_icon.png);
+    background-image: url(../../images/content/voc/file_icon.png);
     background-position: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -663,14 +897,15 @@ select {
     width: 30px;
     height: 30px;
     margin-right: 14px;
-    background-image: url('../images/content/voc/checkbox.png');
+
+    background-image: url('../../images/content/voc/checkbox.png');
     vertical-align: middle;
 }
 
 /*체크했을 때*/
 
 .voc .voc_fifth input:checked + label::before {
-    background-image: url('../images/content/voc/checkbox_checked.png');
+    background-image: url('../../images/content/voc/checkbox_checked.png');
 }
 
 .voc .voc_fifth > span {

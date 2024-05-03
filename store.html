@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/content/sub_common.css" />
+        <link rel="stylesheet" href="css/content/sub_style.css" />
+        <title>가맹점</title>
+    </head>
+    <body>
+        <div id="wrap">
+            <!-- header -->
+            <header id="subheader">
+                <!-- header 추가 -->
+            </header>
+            <!-- //header -->
+            <section id="sub_visual" class="sub_common">
+                <img src="images/content/store/store-bg.png" alt="한솥이야기" />
+                <div class="subject">
+                    <strong>점포찾기</strong>
+                    <p class="eng_name">STORE</p>
+                </div>
+            </section>
+
+            <div class="map_wrap">
+                <div
+                    id="map"
+                    style="width: 100vw; height: 100vw; position: relative; overflow: hidden"
+                ></div>
+
+                <div id="menu_wrap" class="bg_white">
+                    <div class="option">
+                        <div>
+                            <form onsubmit="searchPlaces(); return false;">
+                                지점 :
+                                <input type="text" value="한솥" id="keyword" size="15" />
+                                <button type="submit">검색</button>
+                            </form>
+                        </div>
+                    </div>
+                    <hr />
+                    <ul id="placesList"></ul>
+                    <div id="pagination"></div>
+                </div>
+            </div>
+            <!-- footer -->
+            <footer id="footer">
+                <!-- footer추가 -->
+            </footer>
+        </div>
+        <script src="js/common/common.js"></script>
+        <script type="module" src="js/content/sub.js"></script>
+        <script
+            type="text/javascript"
+            src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a488ab7c6b9412fbe084787d1cc1096b&libraries=services"
+        ></script>
+        <script src="js/store_m.js"></script>
+    </body>
+</html>

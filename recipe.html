@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/content/sub_common.css" />
+        <link rel="stylesheet" href="css/content/sub_style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+        <style>
+            :root {
+                --swiper-theme-color: #f1bb00;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <!-- header -->
+            <header id="subheader">
+                <!-- header 추가 -->
+            </header>
+            <!-- //header -->
+
+            <!-- visual  -->
+            <section id="sub_visual" class="sub_common">
+                <img src="images/content/recipe/recipe-bg.png" alt="한솥이야기" />
+                <div class="subject">
+                    <strong>꿀조합레시피</strong>
+                    <p class="eng_name">DIY RECIPE</p>
+                </div>
+                <!--visual -->
+            </section>
+            <!-- //visual -->
+
+            <!-- main  -->
+            <main id="container" class="recipe">
+                <div class="jmt">
+                    <p>한솥메뉴들로 즐기는</p>
+                    <p class="mix">JMT조합</p>
+                </div>
+                <div class="han_sot">
+                    <p>한솥 알바생, 인플루언서 등</p>
+                    <p>한솥덕후들이 인정한 꿀조합 레시피</p>
+                    <p>함께 먹어야 더 맛있고 함께 먹어서 더 든든해지는</p>
+                    <p>한솥 메뉴들의 JMT 레시피 조합</p>
+                </div>
+                <div class="line"></div>
+
+                <div class="swiper recipes">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/content/recipe/main0.png" alt="" />
+                            <p>돈치고기고기 꿀조합 레시피</p>
+                            <p class="txt">국내산 돼지고기로 만든 반달 돈까스, 닭다리살의</p>
+                            <p class="txt">치킨 가라아게,소불고기, 제육볶음 등 각종 고기반찬과</p>
+                            <p class="txt">따끈따끈한 쌀밥, 여기에 두부강된장 소스를 비벼먹으면</p>
+                            <p class="txt">최상의 단짠단짠 조합 완성!</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/content/recipe/main1.png" alt="" />
+                            <p>해바라기 꿀조합 레시피</p>
+                            <p class="txt">점보 사이즈의 통닭다리와 통새우 4마리를 통째로 담은</p>
+                            <p class="txt">통새우카츠, 청정 호주산 소불고기에 햄버그스테이크까지</p>
+                            <p class="txt">총 10찬으로 구성된 풍성함 가득 담은 프리미엄 도시락.</p>
+                            <p class="txt">식사의 마지막 꽃을 장식할 디저트 꿀호떡을 잊지마세요</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/content/recipe/main2.png" alt="" />
+                            <p>치킨마요 꿀조합 레시피</p>
+                            <p class="txt">한솥 대표 메뉴로 한 입 크기로 자른 슬라이스</p>
+                            <p class="txt">치킨 가라아게를 한솥의 시그니처 마요드레싱과</p>
+                            <p class="txt">덮밥소스 비벼 한 입 한 다음, 소스와 치킨의 느끼해지는</p>
+                            <p class="txt">속을 깨끗하게 해줄 김치찌개 국물 한 숟가락</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/content/recipe/main3.png" alt="" />
+                            <p>돈까스도련님 꿀조합 레시피</p>
+                            <p class="txt">
+                                국내산 돼지고기로 만든 반달 돈까스, 소불고기, 제육볶음
+                            </p>
+                            <p class="txt">닭다리살의 치킨 가라아게까지 다양한 고기반찬이 주는</p>
+                            <p class="txt">느끼함을 시원하게 잡아 줄 수 있는 김치찌개 김치나베를</p>
+                            <p class="txt">만들어 먹을 수 있는 든든한 한끼 레시피</p>
+                        </div>
+                    </div>
+                    <div class="circle">
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </main>
+            <!-- //main -->
+
+            <!-- footer  -->
+            <footer id="footer">
+                <!-- footer추가 -->
+            </footer>
+            <!-- //visual  -->
+        </div>
+        <script src="js/common/common.js"></script>
+        <script type="module" src="js/content/sub.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.recipes', {
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
+    </body>
+</html>

@@ -224,22 +224,38 @@ img {
     height: 41.6667vw;
     position: relative;
 }
-
-.main .main_links p {
-    color: #fff;
-    font-size: 6.9444vw;
-    font-weight: 700;
-    position: absolute;
-    left: 3.6111vw;
-    bottom: 3.6111vw;
-    margin-bottom: 0;
+.main .main_links .all_menu > p {
+  color: #fff;
+  font-size: 6.9444vw;
+  font-weight: 700;
+  position: absolute;
+  left: 3.6111vw;
+  bottom: 3.6111vw;
+  margin-bottom: 8.3333vw;
 }
-.main .main_links img {
-    width: 13.8889vw;
-    height: 13.8889vw;
-    position: absolute;
-    right: 4.4444vw;
-    bottom: 3.8889vw;
+.main .main_links .all_menu img {
+  width: 13.8889vw;
+  height: 13.8889vw;
+  position: absolute;
+  right: 4.4444vw;
+  bottom: 3.8889vw;
+}
+
+.main .main_links .find_store > p {
+  color: #fff;
+  font-size: 6.9444vw;
+  font-weight: 700;
+  position: absolute;
+  left: 3.6111vw;
+  bottom: 3.6111vw;
+  margin-bottom: 8.3333vw;
+}
+.main .main_links .find_store img {
+  width: 13.8889vw;
+  height: 13.8889vw;
+  position: absolute;
+  right: 4.4444vw;
+  bottom: 3.8889vw;
 }
 
 /* //section */

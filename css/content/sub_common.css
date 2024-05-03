@@ -40,6 +40,7 @@
 }
 #subheader .inner h1 img {
     position: absolute;
+    width: 6.6667vw;
     top: 4.1667vw;
     /* transform: translateY(-50%); */
     left: 5.5556vw;
@@ -160,7 +161,6 @@
     font-size: 8.3333vw;
     font-weight: bold;
     line-height: 16.6667vw;
-
 }
 /* //.헤더 */
 

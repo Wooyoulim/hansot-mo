@@ -657,6 +657,8 @@
 }
 .sub_fqa .select .choice li.on {
     background: #303030;
+}
+.sub_fqa .select .choice li.on a {
     color: #f1bb00;
 }
 .sub_fqa .select .choice li:last-child {
@@ -739,6 +741,8 @@
 }
 .voc .select .choice li.on {
     background: #303030;
+}
+.voc .select .choice li.on a {
     color: #f1bb00;
 }
 .voc strong {

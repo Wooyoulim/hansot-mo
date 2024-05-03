@@ -14,6 +14,8 @@
         />
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <div id="wrap">
@@ -27,7 +29,20 @@
             </section>
             <main id="container" class="brandstory">
                 <section id="content">
-                    <h2>든든한 솥밥을 위해<strong>지키고, 키워가는 것들</strong></h2>
+                    <h2
+                        data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-offset="100"
+                        data-aos-duration="1500"
+                    >
+                        든든한 솥밥을 위해<strong
+                            data-aos="fade-up"
+                            data-aos-easing="linear"
+                            data-aos-offset="200"
+                            data-aos-duration="1500"
+                            >지키고, 키워가는 것들</strong
+                        >
+                    </h2>
                     <p>
                         종로에 8평짜리 1호점을 냈을 때의 이야기입니다.<br />
                         배달 없이 시작하겠다는 소리에 모두가 말렸습니다.<br />
@@ -105,6 +120,9 @@
                     el: '.swiper-pagination',
                 },
             });
+        </script>
+        <script>
+            AOS.init();
         </script>
     </body>
 </html>

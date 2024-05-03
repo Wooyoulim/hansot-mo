@@ -29,7 +29,9 @@ img {
     color: #f1bb00;
     height: 100vh;
 }
-
+#visual .visual_one .inner img {
+    width: 58.8889vw;
+}
 #visual .visual_two {
     position: relative;
     background: #303030;
@@ -139,12 +141,11 @@ img {
 .main {
 }
 .main img {
-    width: 100%;
     position: relative;
     z-index: 15;
 }
-
-.main .inner {
+.main .topimg {
+    width: 101.6667vw;
 }
 .main span {
     font-size: 8.3333vw;
@@ -199,7 +200,7 @@ img {
 }
 .main .main_links .all_menu {
     margin-bottom: 5.5556vw;
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
     background-image: url(../../images/main/all_menu.png);
@@ -207,9 +208,15 @@ img {
     height: 41.6667vw;
     position: relative;
 }
+.main .main_links .all_menu img {
+    width: 13.8889vw;
+}
+.main .main_links .find_store img {
+    width: 13.8889vw;
+}
 .main .main_links .find_store {
     margin-bottom: 27.7778vw;
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
     background-image: url(../../images/main/find_store.png);

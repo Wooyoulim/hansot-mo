@@ -543,6 +543,7 @@
 /* franchise */
 
 .sub_franchise h2 {
+  margin-top: 160px;
   color: var(--303030, #303030);
   /* 모바일-B */
   font-family: "Noto Sans KR";
@@ -641,7 +642,7 @@
 /* 자주묻는질문  */
 
 .sub_fqa {
-  margin-top: 100px;
+  margin-top: 160px;
 }
 .sub_fqa #content {
   /* display: block; */
@@ -724,7 +725,7 @@
 
 /* voc */
 .voc {
-  margin-top: 100px;
+ margin-top: 160px;
 }
 .voc #content {
   /* display: block; */

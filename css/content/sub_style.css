@@ -4,12 +4,12 @@
 .brandstory {
 }
 .brandstory h2 {
-  margin-top: 160px;
+  margin-top: 44.4444vw;
   text-align: center;
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-weight: bold;
   color: #303030;
-  margin-bottom: 37px;
+  margin-bottom: 10.2778vw;
 }
 .brandstory h2 strong {
   display: block;
@@ -18,9 +18,9 @@
 .brandstory p {
   text-align: center;
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 3.8889vw;
   color: #303030;
-  margin-bottom: 25px;
+  margin-bottom: 6.9444vw;
 }
 
 .brandstory p:last-child {
@@ -29,12 +29,12 @@
 .brandstory p:nth-of-type(3)::after {
   content: "";
   display: block;
-  width: 206px;
-  height: 5px;
+  width: 57.2222vw;
+  height: 1.3889vw;
   background: #303030;
   margin: auto;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 12.5000vw;
+  margin-bottom: 12.5000vw;
 }
 
 .brandstory .brandstory_swiper {
@@ -45,7 +45,7 @@
   display: flex;
 }
 .brandstory .brandstory_swiper .swiper-wrapper > li {
-  width: 360px;
+  width: 100.0000vw;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -66,13 +66,13 @@
   .swiper-slide
   .swiper_text
   > strong {
-  font-size: 15px;
+  font-size: 4.1667vw;
   color: #303030;
   font-weight: bold;
   display: block;
-  width: 300px;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  width: 83.3333vw;
+  margin-top: 16.6667vw;
+  margin-bottom: 5.5556vw;
 }
 .brandstory
   .brandstory_swiper
@@ -80,18 +80,18 @@
   .swiper-slide
   .swiper_text
   > span {
-  font-size: 14px;
+  font-size: 3.8889vw;
   color: #303030;
   font-weight: lighter;
   display: block;
-  margin-bottom: 100px;
-  width: 300px;
+  margin-bottom: 27.7778vw;
+  width: 83.3333vw;
 }
 .brandstory .brandstory_swiper .swiper-pagination {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 326px;
+  top: 90.5556vw;
 }
 .brandstory .brandstory_swiper .swiper-pagination span {
   background: #f1bb00;
@@ -102,20 +102,20 @@
 /*  전체메뉴 */
 
 .product {
-  margin-top: 166px;
-  margin-bottom: 100px;
+  margin-top: 46.1111vw;
+  margin-bottom: 27.7778vw;
 }
 .product .product_list {
-  padding: 0 20px;
+  padding: 0 5.5556vw;
 }
 .product .product_list > li {
-  height: 40px;
-  border: 1px solid #303030;
+  height: 11.1111vw;
+  border: 0.2778vw solid #303030;
   border-bottom: 0;
 }
 
 .product .product_list > li:last-of-type {
-  border-bottom: 1px solid #303030;
+  border-bottom: 0.2778vw solid #303030;
 }
 .product .product_list > li.on {
   background: #303030;
@@ -126,32 +126,32 @@
 }
 
 .product .product_list > li p {
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-weight: bold;
   text-align: center;
   color: #303030;
-  line-height: 40px;
+  line-height: 11.1111vw;
 }
 .product .product_all {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   transition: 0.5s linear;
-  height: 0px;
+  height: 0;
   overflow: hidden;
 }
 
 .product .product_all.on {
-  height: 500px;
+  height: 138.8889vw;
 }
 
 .product .product_list li.on .product_all > li {
   display: block;
 }
 .product .product_all > li {
-  width: 160px;
-  height: 160px;
-  padding: 26px 17px 26px 16px;
+  width: 44.4444vw;
+  height: 44.4444vw;
+  padding: 7.2222vw 4.7222vw 7.2222vw 4.4444vw;
   box-sizing: border-box;
 
   position: relative;
@@ -160,8 +160,8 @@
 
 .product .product_all > li::before {
   content: "";
-  width: 160px;
-  height: 160px;
+  width: 44.4444vw;
+  height: 44.4444vw;
   background: rgba(48, 48, 48, 0.8);
   opacity: 0;
   display: block;
@@ -175,7 +175,7 @@
   display: block;
   text-align: center;
   text-wrap: nowrap;
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-weight: bold;
   position: absolute;
   left: 50%;
@@ -192,8 +192,8 @@
 }
 
 .product .product_all li img {
-  width: 127px;
-  height: 108px;
+  width: 35.2778vw;
+  height: 30.0000vw;
 }
 
 .product .product_all:nth-of-type(1) > li:nth-of-type(1):after {
@@ -543,58 +543,58 @@
 /* franchise */
 
 .sub_franchise h2 {
-  margin-top: 160px;
+  margin-top: 44.4444vw;
   color: var(--303030, #303030);
   /* 모바일-B */
   font-family: "Noto Sans KR";
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 25px; /* 166.667% */
-  letter-spacing: -0.75px;
+  line-height: 6.9444vw; /* 166.667% */
+  letter-spacing: -0.2083vw;
 }
 .sub_franchise p {
   color: var(--303030, #303030);
   /* 모바일-L */
   font-family: "Noto Sans KR";
-  font-size: 14px;
+  font-size: 3.8889vw;
   font-style: normal;
   font-weight: 300;
-  line-height: 25px; /* 178.571% */
-  letter-spacing: -0.7px;
-  margin-left: 55px;
+  line-height: 6.9444vw; /* 178.571% */
+  letter-spacing: -0.1944vw;
+  margin-left: 15.2778vw;
   word-break: keep-all;
 }
 
 .family {
   margin: auto;
-  width: 320px;
+  width: 88.8889vw;
 }
 .family > h2 {
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 38px;
+  font-size: 5.5556vw;
+  line-height: 8.3333vw;
+  margin-bottom: 10.5556vw;
 }
 .family > p {
-  width: 265px;
+  width: 73.6111vw;
   font-weight: 400;
 }
 .family span {
-  margin-top: 44px;
-  margin-left: 55px;
+  margin-top: 12.2222vw;
+  margin-left: 15.2778vw;
   display: inline-block;
-  width: 265px;
-  border: 2px solid #303030;
+  width: 73.6111vw;
+  border: 0.5556vw solid #303030;
 }
 
 .reason {
   margin: auto;
-  width: 320px;
+  width: 88.8889vw;
   position: relative;
 }
 .reason > h2 {
-  width: 98px;
-  margin: 50px 0;
+  width: 27.2222vw;
+  margin: 13.8889vw 0;
 }
 
 .reason .one li strong,
@@ -603,38 +603,38 @@
   position: absolute;
   color: var(--f-1-bb-00, #f1bb00);
   font-family: "Noto Sans KR";
-  font-size: 102.128px;
+  font-size: 28.3689vw
   font-style: normal;
   font-weight: 900;
-  letter-spacing: -5.106px;
-  left: -44px;
-  bottom: 172px;
+  letter-spacing: -1.4183vw;
+  left: -12.2222vw;
+  bottom: 47.7778vw;
 }
 
 .reason .one li img,
 .reason .two li img,
 .reason .three li img {
-  margin-left: 55px;
+  margin-left: 15.2778vw;
 }
 .reason .one li h2,
 .reason .two li h2,
 .reason .three li h2 {
-  margin-top: 24px;
+  margin-top: 6.6667vw;
 }
 .reason .one li span,
 .reason .two li span,
 .reason .three li span {
-  margin: 20px 0 18px 0;
+  margin: 5.5556vw 0 5.0000vw 0;
   display: inline-block;
-  width: 320px;
-  border: 1px solid #303030;
+  width: 88.8889vw;
+  border: 0.2778vw solid #303030;
 }
 .reason .one li p,
 .reason .two li p {
-  margin-bottom: 72px;
+  margin-bottom: 20.0000vw;
 }
 .reason .three li p {
-  margin-bottom: 100px;
+  margin-bottom: 27.7778vw;
 }
 
 /*  //.가맹점 소개 */
@@ -642,27 +642,27 @@
 /* 자주묻는질문  */
 
 .sub_fqa {
-  margin-top: 160px;
+  margin-top: 44.4444vw;
 }
 .sub_fqa #content {
   /* display: block; */
-  width: 320px;
+  width:88.8889vw;
   margin: auto;
 }
 .sub_fqa .select {
   width: 100%;
 }
 .sub_fqa .select .choice {
-  width: 320px;
+  width: 88.8889vw;
   display: flex;
 }
 .sub_fqa .select .choice li {
-  width: 160px;
-  height: 40px;
+  width: 44.4444vw;
+  height: 11.1111vw;
   text-align: center;
-  border: 1px solid #303030;
-  line-height: 40px;
-  font-size: 15px;
+  border: 0.2778vw solid #303030;
+  line-height: 11.1111vw;
+  font-size: 4.1667vw;
   font-weight: bold;
 }
 .sub_fqa .select .choice li.on {
@@ -672,23 +672,23 @@
   color: #f1bb00;
 }
 .sub_fqa .select .choice li:last-child {
-  margin-left: -1px;
+  margin-left: -0.2778vw;
 }
 .sub_fqa .faq_group {
-  margin-top: 30px;
+  margin-top: 8.3333vw;
 }
 .sub_fqa .faq_group ul {
-  border-bottom: 5px solid #303030;
+  border-bottom: 1.3889vw solid #303030;
   display: flex;
   justify-content: space-between;
 }
 .sub_fqa .faq_group ul li {
-  font-size: 14px;
+  font-size: 3.8889vw;
   font-weight: lighter;
-  margin: 10px 0;
+  margin: 2.7778vw 0;
 }
 .sub_fqa .faq_group ul li.on a {
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-weight: bold;
   color: #f1bb00;
 }
@@ -697,21 +697,21 @@
 .sub_fqa .faq tbody {
 }
 .sub_fqa .faq tbody tr {
-  width: 320px;
+  width: 88.8889vw;
   display: block;
-  font-size: 15px;
-  line-height: 70px;
-  border-bottom: 1px solid #e2ddd7;
+  font-size: 4.1667vw;
+  line-height: 19.4444vw;
+  border-bottom: 0.2778vw solid #e2ddd7;
 }
 .sub_fqa .faq_paging {
-  width: 210px;
+  width: 58.3333vw;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .sub_fqa .faq_paging a {
   display: block;
-  margin: 30px 20px 100px 20px;
+  margin: 8.3333vw 5.5556vw 27.7778vw 5.5556vw;
 }
 
 .sub_fqa .faq_paging a.on {
@@ -725,11 +725,11 @@
 
 /* voc */
 .voc {
- margin-top: 160px;
+ margin-top: 44.4444vw;
 }
 .voc #content {
   /* display: block; */
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
 }
 
@@ -737,16 +737,16 @@
   width: 100%;
 }
 .voc .select .choice {
-  width: 320px;
+  width: 88.8889vw;
   display: flex;
 }
 .voc .select .choice li {
-  width: 160px;
-  height: 40px;
+  width: 44.4444vw;
+  height: 11.1111vw;
   text-align: center;
-  border: 1px solid #303030;
-  line-height: 40px;
-  font-size: 15px;
+  border: 0.2778vw solid #303030;
+  line-height: 11.1111vw;
+  font-size: 4.1667vw;
   font-weight: bold;
 }
 .voc .select .choice li.on {
@@ -756,23 +756,23 @@
   color: #f1bb00;
 }
 .voc strong {
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-weight: bold;
   display: block;
-  margin-bottom: 12px;
-  margin-top: 50px;
+  margin-bottom: 3.3333vw;
+  margin-top: 13.8889vw;
 }
 
 .voc .voc_first {
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
-  padding-bottom: 13px;
-  border-bottom: 1px solid #303030;
+  padding-bottom: 3.6111vw;
+  border-bottom: 0.2778vw solid #303030;
 }
 .voc .voc_first label {
-  font-size: 14px;
+  font-size: 3.8889vw;
   color: #303030;
-  margin-right: 10px;
+  margin-right: 2.7778vw;
 }
 
 .voc .voc_first label:last-of-type {
@@ -783,19 +783,19 @@ input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 14.22px;
-  height: 14.22px;
-  border: 1px solid #303030;
+  width: 3.9500vw;
+  height: 3.9500vw;
+  border: 0.2778vw solid #303030;
   border-radius: 50%;
   outline: none;
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 1.3889vw;
 }
 
 input[type="radio"]:checked {
   background-color: #303030;
-  border: 2.5px solid white;
-  box-shadow: 0 0 0 1px #303030;
+  border: 0.6944vw solid white;
+  box-shadow: 0 0 0 0.2778vw #303030;
 }
 
 /* //문의구분 */
@@ -803,25 +803,25 @@ input[type="radio"]:checked {
 /* 점포명 */
 
 .w155 {
-  width: 155px;
+  width: 43.0556vw;
   margin: auto;
 }
 
 .w320 {
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
 }
 
 .voc input[type="text"],
 select {
-  height: 50px;
+  height: 13.8889vw;
   border: none;
   outline: none;
-  border-bottom: 1px solid #303030;
+  border-bottom: 0.2778vw; solid #303030;
 }
 
 .voc .voc_second {
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
 }
 
@@ -829,12 +829,12 @@ select {
 
 /* 문의내용 */
 .voc .voc_third {
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
 }
 
 .voc .voc_third input[type="text"]:last-of-type {
-  height: 315px;
+  height:87.5000vw;
 }
 
 /* //문의내용 */
@@ -842,7 +842,7 @@ select {
 /* 파일첨부 */
 /* 파일첨부 */
 .voc .voc_fourth {
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
 }
 
@@ -850,7 +850,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #303030;
+  border-bottom: 0.2778vw solid #303030;
 }
 .voc .voc_fourth .voc_file_wrap .voc_file_label {
   background-image: url(../../images/content/voc/file_icon.png);
@@ -858,9 +858,9 @@ select {
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
-  width: 16px;
-  height: 15.57px;
-  margin-bottom: 3px;
+  width: 4.4444vw;
+  height: 4.3250vw;
+  margin-bottom: 0.8333vw;
 }
 
 .voc .voc_fourth input[type="file"] {
@@ -872,14 +872,14 @@ select {
 
 .voc .voc_fourth b {
   font-weight: lighter;
-  font-size: 14px;
+  font-size: 3.8889vw;
 }
 
 .voc .voc_fourth span {
-  width: 320px;
-  margin-top: 10px;
+  width: 88.8889vw;
+  margin-top: 2.7778vw;
   display: block;
-  font-size: 13px;
+  font-size: 3.6111vw;
   font-weight: lighter;
   text-align: right;
   color: #303030;
@@ -890,34 +890,34 @@ select {
 /* 개인정보 수집 동의 */
 
 .voc .voc_fifth {
-  width: 320px;
+  width: 88.8889vw;
   margin: auto;
 }
 
 .voc .voc_fifth p {
-  font-size: 14px;
+  font-size: 3.8889vw;
   color: #303030;
   font-weight: lighter;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #303030;
-  margin-bottom: 50px;
+  padding-bottom:13.8889vw;
+  border-bottom: 0.2778vw solid #303030;
+  margin-bottom: 13.8889vw;
 }
 
 /* 체크박스 */
 
 .voc .voc_fifth input[type="checkbox"] {
-  width: 30px;
-  height: 30px;
+  width: 8.3333vw;
+  height: 8.3333vw;
   display: none;
 }
 
 .voc .voc_fifth label::before {
-  margin-left: 30px;
+  margin-left: 8.3333vw;
   display: inline-block;
   content: "";
-  width: 30px;
-  height: 30px;
-  margin-right: 14px;
+  width: 8.3333vw;
+  height: 8.3333vw;
+  margin-right: 3.8889vw;
 
   background-image: url("../../images/content/voc/checkbox.png");
   vertical-align: middle;
@@ -930,23 +930,23 @@ select {
 }
 
 .voc .voc_fifth > span {
-  font-size: 15px;
+  font-size: 4.1667vw;
   color: #303030;
 }
 .voc .faq_button {
   margin: auto;
-  width: 160px;
-  height: 40px;
+  width: 44.4444vw;
+  height: 11.1111vw;
   background: #303030;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 13.8889vw;
+  margin-bottom: 27.7778vw;
 }
 .voc .faq_button a {
   display: block;
   text-align: center;
-  line-height: 40px;
+  line-height: 11.1111vw;
   color: #f1bb00;
-  font-size: 15px;
+  font-size: 4.1667vw;
   font-weight: bold;
 }
 

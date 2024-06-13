@@ -2,13 +2,13 @@
 
 <br>
 
-<img width="600" alt="한솥 모바일 이미지" src="https://github.com/Wooyoulim/hansot-mo/issues/1#issue-2350241993">
+<img width="600" alt="한솥 모바일 이미지"src="https://github.com/Wooyoulim/hansot-mo/issues/1#issue-2350241993">
 
 <br>
 <br>
 
 - 한솥 모바일 페이지 작업하기
-- 바로가기 : (링크 삽입 예정)
+- 바로가기 : https://wooyoulim.github.io/hansot-mo/main.html
 
 - 활용 Skills : <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" /> 
 - 활용 Tools : <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white" /> <img src="https://img.shields.io/badge/Slack-4A154B?style=flat&logo=Slack&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" />
